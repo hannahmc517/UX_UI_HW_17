@@ -1,0 +1,151 @@
+.inline-block {
+display: inline-block;
+list-style-type: none;
+vertical-align: top;
+font-family: poppins;
+font-size: 20px;
+padding: 20px; 
+border: solid 1px purple;
+}
+
+
+ul {
+    /* width: 50%; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 93px;
+}
+
+button {
+    background-color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: poppins;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 17px;
+}
+
+button:hover {
+background-color: #FFFFFF;
+opacity: 0.8;
+
+}
+
+/* .logo {
+    width: 5px;
+    padding: 1%;  
+    margin-left: 93px;
+    border: solid 1px grey;
+} */
+
+.inline-block img {
+   width:75px;
+   padding: 1%;
+   margin-left: 50px;
+}
+
+body {
+    background-color: #E3D5C9;
+    width: 100%;
+}
+
+nav {
+  width: 50%; 
+  padding: 1%;
+}
+
+
+.heroImg {
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border: 3px solid blue;
+    margin-left: 1200px;
+    margin-right: 0px;
+    position: absolute;
+    top: 0%;
+    height: auto;
+    width: 800x;
+}
+
+
+.content {
+    /* margin: 0 auto; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* width: 60%; */
+    /* height: 192px; */
+    font-family: poppins;
+    font-size: 40px;
+    border: 1px solid yellow;
+    margin-left: 93px;
+    margin-top: 100px;
+    width:  927px;
+}
+
+p {
+    margin-top: -20px;
+}
+
+h1 {
+  font-family: poppins;  
+  font-weight: semi-bold;
+  font-size: 60px;
+  padding-bottom: 5px;
+  border: solid 1px olive;
+}
+
+#lighter {
+    background-color: #E3D5C9BE;
+    background: no-repeat padding-box;
+    height: 8px;
+}
+
+
+.work {
+    background-color: white;
+    height: 20px;
+    margin-top: 178px;
+}
+#lighter {
+background-color: #E3D5C9BE;
+height: 8px;
+width: 100%;
+border: solid 1px red;
+}
+
+footer {
+    background-color: #E3D5C9;
+    width: 100%;
+    display: inline-block;
+    border: solid 1px orange
+}
+
+#footerButton {
+    display: flex;
+    justify-content: center;
+    
+}
+
+/* .grid1 {
+display: grid;
+grid-template-columns: 60% 40%;
+grid-template-rows: auto;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: auto;
+} */
+
