@@ -4,9 +4,16 @@
         <title>Hannah Pratt Portfolio</title>
         <link rel="stylesheet" href="css/index.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+
         <style>
             body {
-                font-family:"poppins, sans-serif";
+                font-family:"Poppins, sans-serif";
+                /* font-family:"Poppins:wght@600, sans-serif"; */
             }
         </style>
     </head>
@@ -14,30 +21,27 @@
   <!-- Header -->
     <body>
         <section class="hero">
-           
-            <!-- <div class="inline-block logo">
-                <img src="images/logo.png">
-            </div> -->
-            
-            <nav class="inline-block">
-                <ul>
-                    <li class="inline-block"><img src="images/logo.png"></li>
-                    <li class="inline-block">WORK</li>
-                    <li class="inline-block">ABOUT</li>
-                    <li class="inline-block">SKILLS</li>
-                    <li class="inline-block">CONTACT</li>
-                </ul>
-            </nav>
-           
-            <div class="content">
-                <h1>Hannah Pratt</h1>
-                <p>A UX/UI designer that believes in beautiful design, and is driven by company sustainability efforts.</p>
-                <button class="regButton">DOWNLOAD RESUME</button>
+           <div class="column1">
+                <nav class="inline-block">
+                    <ul>
+                        <li class="inline-block"><img src="images/logo.png"></li>
+                        <li class="inline-block">WORK</li>
+                        <li class="inline-block">ABOUT</li>
+                        <li class="inline-block">SKILLS</li>
+                        <li class="inline-block">CONTACT</li>
+                    </ul>
+                </nav>
+                    <div class="content">
+                        <h1>Hannah Pratt</h1>
+                            <div class="contentPa">
+                                <p>A UX/UI designer that believes in beautiful design, and is driven by company sustainability efforts.</p>
+                            </div>
+                        <button class="regButton">DOWNLOAD RESUME</button>
+                    </div>
             </div>
-            <section class="heroImg">
+            <div class="column2">
                 <img src="images/photo xd copy.png">
-           </section>
-          
+            </div>
         </section>
 
         <!-- footer section -->
@@ -46,16 +50,16 @@
 
         <footer>
             <div id="lighter"></div>
-            <ul>
-                <li class="inline-block">Home</li>
-                <li class="inline-block">Work</li>
-                <li class="inline-block">About</li>
-                <li class="inline-block">Skills</li>
-                
-        
-            </ul>
+                <div id="footerLinks">
+                    <ul>
+                        <li class="inline-block">Home</li>
+                        <li class="inline-block">Work</li>
+                        <li class="inline-block">About</li>
+                        <li class="inline-block">Skills</li>
+                    </ul>
+                </div>
             <div id=footerButton>
-            <button class="button2">CONTACT</button>
+                <button class="button2">CONTACT</button>
             </div>
         </footer>
     </body>
